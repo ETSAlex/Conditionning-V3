@@ -44,6 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=PROD
 
 [Preferences]
 PrefsVaultGUID=
@@ -252,6 +253,25 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OINQJYLO
+
+[ProjectVariant1]
+UniqueId=b30e6f06-6389-4efb-b679-8f1ed9d59e55
+Description=PROD
+AllowFabrication=0
+ParameterCount=0
+VariationCount=11
+Variation1=Designator=R25|UniqueId=\SOJFLCRS\GKNVOSRT\KGDWCMGO|Kind=1|AlternatePart=
+Variation2=Designator=R27|UniqueId=\SOJFLCRS\GKNVOSRT\CMSRSZKZ|Kind=1|AlternatePart=
+Variation3=Designator=R32|UniqueId=\SOJFLCRS\GKNVOSRT\OMECDTIY|Kind=1|AlternatePart=
+Variation4=Designator=R28|UniqueId=\SOJFLCRS\GKNVOSRT\LNJVQRKP|Kind=1|AlternatePart=
+Variation5=Designator=R7|UniqueId=\SOJFLCRS\EFDHJTIU\HVONSJGI|Kind=1|AlternatePart=
+Variation6=Designator=R8|UniqueId=\SOJFLCRS\EFDHJTIU\AUHIOJDH|Kind=1|AlternatePart=
+Variation7=Designator=R11|UniqueId=\SOJFLCRS\ZCZHGKXI\YEYDTKBJ|Kind=1|AlternatePart=
+Variation8=Designator=R34|UniqueId=\SOJFLCRS\WSMGUIMZ\JWGCAXTU|Kind=0|AlternatePart=
+Variation9=Designator=R33|UniqueId=\SOJFLCRS\WSMGUIMZ\BMDRVPPP|Kind=0|AlternatePart=
+Variation10=Designator=R36|UniqueId=\SOJFLCRS\WSMGUIMZ\ATFXQUNX|Kind=1|AlternatePart=
+Variation11=Designator=R35|UniqueId=\SOJFLCRS\WSMGUIMZ\LUWPBHKN|Kind=1|AlternatePart=
+ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for ConditioningV3\Design Rule Check - PCB1.html
