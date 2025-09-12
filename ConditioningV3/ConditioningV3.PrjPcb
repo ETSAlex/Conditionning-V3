@@ -267,10 +267,10 @@ Variation4=Designator=R28|UniqueId=\SOJFLCRS\GKNVOSRT\LNJVQRKP|Kind=1|AlternateP
 Variation5=Designator=R7|UniqueId=\SOJFLCRS\EFDHJTIU\HVONSJGI|Kind=1|AlternatePart=
 Variation6=Designator=R8|UniqueId=\SOJFLCRS\EFDHJTIU\AUHIOJDH|Kind=1|AlternatePart=
 Variation7=Designator=R11|UniqueId=\SOJFLCRS\ZCZHGKXI\YEYDTKBJ|Kind=1|AlternatePart=
-Variation8=Designator=R34|UniqueId=\SOJFLCRS\WSMGUIMZ\JWGCAXTU|Kind=0|AlternatePart=
-Variation9=Designator=R33|UniqueId=\SOJFLCRS\WSMGUIMZ\BMDRVPPP|Kind=0|AlternatePart=
-Variation10=Designator=R36|UniqueId=\SOJFLCRS\WSMGUIMZ\ATFXQUNX|Kind=1|AlternatePart=
-Variation11=Designator=R35|UniqueId=\SOJFLCRS\WSMGUIMZ\LUWPBHKN|Kind=1|AlternatePart=
+Variation8=Designator=R36|UniqueId=\SOJFLCRS\WSMGUIMZ\ATFXQUNX|Kind=1|AlternatePart=
+Variation9=Designator=R35|UniqueId=\SOJFLCRS\WSMGUIMZ\LUWPBHKN|Kind=1|AlternatePart=
+Variation10=Designator=R37|UniqueId=\SOJFLCRS\ZCZHGKXI\KBJJTDDT|Kind=1|AlternatePart=
+Variation11=Designator=D3|UniqueId=\SOJFLCRS\ZCZHGKXI\BBTLSMVD|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -392,12 +392,22 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -929,7 +939,6 @@ Type155=1
 Type156=1
 Type157=1
 Type158=1
-Type159=1
 
 [Difference Levels]
 Type1=1
@@ -1018,7 +1027,6 @@ Type83=1
 Type84=1
 Type85=1
 Type86=1
-Type87=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1182,8 +1190,6 @@ Type158=0
 Type159=0
 Type160=0
 Type161=0
-Type162=1
-Type163=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1232,10 +1238,16 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=ETS_Library.SchLib
-ComponentDesignItemID0=STM32F401RBT6
-ComponentSymbolReference0=STM32F401RBT6
+ComponentDesignItemID0=ESR03EZPF2000
+ComponentSymbolReference0=ESR03EZPF2000
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=ETS_Library.SchLib
+ComponentDesignItemID1=LTST-C170GKT
+ComponentSymbolReference1=LTST-C170GKT
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1249,31 +1261,44 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Check_prices
+ParameterName0=Availability
 ParameterUpdate0=1
 ParameterName1=Comment
 ParameterUpdate1=1
 ParameterName2=Component Kind
 ParameterUpdate2=1
-ParameterName3=Description
+ParameterName3=Copyright
 ParameterUpdate3=1
-ParameterName4=Library Reference
+ParameterName4=Description
 ParameterUpdate4=1
-ParameterName5=MF
+ParameterName5=Library Reference
 ParameterUpdate5=1
-ParameterName6=MP
+ParameterName6=Manufacturer_Name
 ParameterUpdate6=1
-ParameterName7=Package
+ParameterName7=Manufacturer_Part_Number
 ParameterUpdate7=1
-ParameterName8=SnapEDA_Link
+ParameterName8=MF
 ParameterUpdate8=1
-ParameterName9=Value
+ParameterName9=MP
 ParameterUpdate9=1
+ParameterName10=Package
+ParameterUpdate10=1
+ParameterName11=Price
+ParameterUpdate11=1
+ParameterName12=RefDes
+ParameterUpdate12=1
+ParameterName13=Type
+ParameterUpdate13=1
+ParameterName14=Value
+ParameterUpdate14=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=QFP50P1200X1200X160-64N
+ModelName0=LED_LTST-C170GKT_LTO
 ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=RESC1608X55N
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
