@@ -44,7 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=16 bits sensor
+CurrentVariant=12 bits sensor
 
 [Preferences]
 PrefsVaultGUID=
@@ -175,9 +175,12 @@ UniqueId=0611dda0-24dd-4e43-9d61-e869e7ca46bd
 Description=12 bits sensor
 AllowFabrication=0
 ParameterCount=0
-VariationCount=2
+VariationCount=5
 Variation1=Designator=U1|UniqueId=\MIFCQXXS|Kind=1|AlternatePart=
 Variation2=Designator=C1|UniqueId=\GXOJPNWP|Kind=1|AlternatePart=
+Variation3=Designator=R1|UniqueId=\LZJQHZMW|Kind=1|AlternatePart=
+Variation4=Designator=R2|UniqueId=\FRLKNAJD|Kind=1|AlternatePart=
+Variation5=Designator=R3|UniqueId=\NWKUFALJ|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -299,22 +302,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=Mixed Sim Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -846,6 +839,7 @@ Type155=1
 Type156=1
 Type157=1
 Type158=1
+Type159=1
 
 [Difference Levels]
 Type1=1
@@ -934,6 +928,7 @@ Type83=1
 Type84=1
 Type85=1
 Type86=1
+Type87=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1097,6 +1092,8 @@ Type158=0
 Type159=0
 Type160=0
 Type161=0
+Type162=1
+Type163=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
