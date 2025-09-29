@@ -102,6 +102,23 @@ GenerateClassCluster=0
 DocumentUniqueId=RJSHKLNV
 
 [Document4]
+DocumentPath=Analog_Power.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NSUAGYOJ
+
+[Document5]
 DocumentPath=Conditioning.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -118,7 +135,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QHUFRAIS
 
-[Document5]
+[Document6]
 DocumentPath=Heating.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -135,7 +152,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BTTHOBOT
 
-[Document6]
+[Document7]
 DocumentPath=TopLevel.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -152,7 +169,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XQUQWMMF
 
-[Document7]
+[Document8]
 DocumentPath=ConditioningV3.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -169,7 +186,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document9]
 DocumentPath=ETS_Library.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -186,7 +203,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FKRBBUAG
 
-[Document9]
+[Document10]
 DocumentPath=ETS_Library.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -203,7 +220,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XOHEONML
 
-[Document10]
+[Document11]
 DocumentPath=BMS.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -220,7 +237,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document12]
 DocumentPath=BMS.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -237,7 +254,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VEUMWFEN
 
-[Document12]
+[Document13]
 DocumentPath=Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -254,7 +271,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OINQJYLO
 
-[Document13]
+[Document14]
 DocumentPath=ConditioningV3.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -276,17 +293,15 @@ UniqueId=b30e6f06-6389-4efb-b679-8f1ed9d59e55
 Description=PROD
 AllowFabrication=0
 ParameterCount=0
-VariationCount=10
+VariationCount=8
 Variation1=Designator=R25|UniqueId=\SOJFLCRS\GKNVOSRT\KGDWCMGO|Kind=1|AlternatePart=
 Variation2=Designator=R27|UniqueId=\SOJFLCRS\GKNVOSRT\CMSRSZKZ|Kind=1|AlternatePart=
 Variation3=Designator=R32|UniqueId=\SOJFLCRS\GKNVOSRT\OMECDTIY|Kind=1|AlternatePart=
 Variation4=Designator=R28|UniqueId=\SOJFLCRS\GKNVOSRT\LNJVQRKP|Kind=1|AlternatePart=
 Variation5=Designator=R7|UniqueId=\SOJFLCRS\EFDHJTIU\HVONSJGI|Kind=1|AlternatePart=
 Variation6=Designator=R8|UniqueId=\SOJFLCRS\EFDHJTIU\AUHIOJDH|Kind=1|AlternatePart=
-Variation7=Designator=R11|UniqueId=\SOJFLCRS\ZCZHGKXI\YEYDTKBJ|Kind=1|AlternatePart=
-Variation8=Designator=R36|UniqueId=\SOJFLCRS\WSMGUIMZ\ATFXQUNX|Kind=1|AlternatePart=
-Variation9=Designator=R35|UniqueId=\SOJFLCRS\WSMGUIMZ\LUWPBHKN|Kind=1|AlternatePart=
-Variation10=Designator=R13|UniqueId=\SOJFLCRS\ZCZHGKXI\YNFABMED|Kind=1|AlternatePart=
+Variation7=Designator=R36|UniqueId=\SOJFLCRS\WSMGUIMZ\ATFXQUNX|Kind=1|AlternatePart=
+Variation8=Designator=R35|UniqueId=\SOJFLCRS\WSMGUIMZ\LUWPBHKN|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -1293,16 +1308,28 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=ETS_Library.SchLib
-ComponentDesignItemID0=ESR03EZPF2000
-ComponentSymbolReference0=ESR03EZPF2000
+ComponentDesignItemID0=AC0603FR-07130KL
+ComponentSymbolReference0=AC0603FR-07130KL
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=ETS_Library.SchLib
-ComponentDesignItemID1=LTST-C170GKT
-ComponentSymbolReference1=LTST-C170GKT
+ComponentDesignItemID1=RC0603FR-07121KL
+ComponentSymbolReference1=RC0603FR-07121KL
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=ETS_Library.SchLib
+ComponentDesignItemID2=RC0603FR-07536KL
+ComponentSymbolReference2=RC0603FR-07536KL
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=ETS_Library.SchLib
+ComponentDesignItemID3=RT0603BRD07448KL
+ComponentSymbolReference3=RT0603BRD07448KL
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1316,44 +1343,31 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Availability
+ParameterName0=Case/Package
 ParameterUpdate0=1
 ParameterName1=Comment
 ParameterUpdate1=1
 ParameterName2=Component Kind
 ParameterUpdate2=1
-ParameterName3=Copyright
+ParameterName3=ComponentLink1Description
 ParameterUpdate3=1
-ParameterName4=Description
+ParameterName4=ComponentLink1URL
 ParameterUpdate4=1
-ParameterName5=Library Reference
+ParameterName5=Description
 ParameterUpdate5=1
-ParameterName6=Manufacturer_Name
+ParameterName6=Library Reference
 ParameterUpdate6=1
-ParameterName7=Manufacturer_Part_Number
+ParameterName7=Supplier 1
 ParameterUpdate7=1
-ParameterName8=MF
+ParameterName8=Supplier Part Number 1
 ParameterUpdate8=1
-ParameterName9=MP
+ParameterName9=Value
 ParameterUpdate9=1
-ParameterName10=Package
-ParameterUpdate10=1
-ParameterName11=Price
-ParameterUpdate11=1
-ParameterName12=RefDes
-ParameterUpdate12=1
-ParameterName13=Type
-ParameterUpdate13=1
-ParameterName14=Value
-ParameterUpdate14=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=LED_LTST-C170GKT_LTO
+ModelName0=R0603
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=RESC1608X55N
-ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
