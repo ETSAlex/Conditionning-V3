@@ -108,7 +108,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -235,7 +235,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DELHBTPT
 
 [Document12]
 DocumentPath=BMS.SchLib
@@ -293,7 +293,7 @@ UniqueId=b30e6f06-6389-4efb-b679-8f1ed9d59e55
 Description=PROD
 AllowFabrication=0
 ParameterCount=0
-VariationCount=8
+VariationCount=9
 Variation1=Designator=R25|UniqueId=\SOJFLCRS\GKNVOSRT\KGDWCMGO|Kind=1|AlternatePart=
 Variation2=Designator=R27|UniqueId=\SOJFLCRS\GKNVOSRT\CMSRSZKZ|Kind=1|AlternatePart=
 Variation3=Designator=R32|UniqueId=\SOJFLCRS\GKNVOSRT\OMECDTIY|Kind=1|AlternatePart=
@@ -302,6 +302,7 @@ Variation5=Designator=R7|UniqueId=\SOJFLCRS\EFDHJTIU\HVONSJGI|Kind=1|AlternatePa
 Variation6=Designator=R8|UniqueId=\SOJFLCRS\EFDHJTIU\AUHIOJDH|Kind=1|AlternatePart=
 Variation7=Designator=R36|UniqueId=\SOJFLCRS\WSMGUIMZ\ATFXQUNX|Kind=1|AlternatePart=
 Variation8=Designator=R35|UniqueId=\SOJFLCRS\WSMGUIMZ\LUWPBHKN|Kind=1|AlternatePart=
+Variation9=Designator=R12|UniqueId=\SOJFLCRS\VPGCNRMI\QLMAOSDR|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -462,22 +463,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=Mixed Sim Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1009,6 +1000,7 @@ Type155=1
 Type156=1
 Type157=1
 Type158=1
+Type159=1
 
 [Difference Levels]
 Type1=1
@@ -1097,6 +1089,7 @@ Type83=1
 Type84=1
 Type85=1
 Type86=1
+Type87=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1260,6 +1253,8 @@ Type158=0
 Type159=0
 Type160=0
 Type161=0
+Type162=1
+Type163=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
